@@ -105,7 +105,7 @@ export default function Home() {
             <li><span><Gauge size={17} /></span><div><strong>Visão em 360°</strong><small>Explore o veículo de diferentes perspectivas.</small></div></li>
             <li><span><ShieldCheck size={17} /></span><div><strong>Informação transparente</strong><small>Ficha técnica e dados do anúncio em um só lugar.</small></div></li>
           </ul>
-          <span className="coming-soon"><span /> VISUALIZADOR 3D NA PRÓXIMA ETAPA</span>
+          <span className="coming-soon"><span /> MODELO CONCEITUAL 3D INTERATIVO</span>
         </div>
       </section>
 
