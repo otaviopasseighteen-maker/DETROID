@@ -99,13 +99,13 @@ export default function Home() {
       <div className="experience-copy">
           <div className="eyebrow"><span className="eyebrow-line" /> UMA NOVA PERSPECTIVA</div>
           <h2>Seu próximo veículo.<br /><em>Por todos os ângulos.</em></h2>
-          <p>Estamos preparando uma experiência interativa para você explorar o exterior dos veículos em 3D, aproximar detalhes e conhecer cada modelo de um jeito novo.</p>
+          <p>Escolha entre três ícones Mitsubishi e explore cada modelo em um visualizador 3D interativo. Gire o carro, aproxime os detalhes e veja diferentes ângulos diretamente na página.</p>
           <ul className="feature-list">
             <li><span><Sparkles size={17} /></span><div><strong>Detalhes em foco</strong><small>Observe linhas, rodas, faróis e acabamento.</small></div></li>
             <li><span><Gauge size={17} /></span><div><strong>Visão em 360°</strong><small>Explore o veículo de diferentes perspectivas.</small></div></li>
             <li><span><ShieldCheck size={17} /></span><div><strong>Informação transparente</strong><small>Ficha técnica e dados do anúncio em um só lugar.</small></div></li>
           </ul>
-          <span className="coming-soon"><span /> MODELO CONCEITUAL 3D INTERATIVO</span>
+          <span className="coming-soon"><span /> 3 MODELOS MITSUBISHI EM 3D</span>
         </div>
       </section>
 
