@@ -40,3 +40,15 @@ button{font:inherit}
 .viewer-hint{position:absolute;bottom:35px;left:35px;z-index:2;color:#aaa;font-size:8px;letter-spacing:1.5px;pointer-events:none}
 .viewer-controls-hint{position:absolute;right:25px;bottom:30px;z-index:2;color:#aaa;font-size:9px;text-align:right;pointer-events:none}
 @media(max-width:680px){.vehicle-model-viewer{min-height:310px}.viewer-overlay{top:25px;left:22px;right:18px}.viewer-hint{left:22px;bottom:24px}.viewer-controls-hint{right:18px;bottom:20px}}
+
+
+/* Seletor de modelos 3D Mitsubishi incorporados via Sketchfab */
+.sketchfab-model-frame{position:absolute;inset:0;width:100%;height:100%;min-height:500px;border:0;background:#101112}
+.viewer-model-picker{position:absolute;z-index:4;top:66px;left:25px;right:25px;display:flex;flex-wrap:wrap;gap:7px;pointer-events:auto}
+.viewer-model-option{display:flex;flex-direction:column;gap:3px;max-width:190px;padding:9px 12px;border:1px solid #ffffff2b;background:#111d;color:#d8d8d8;text-align:left;font:inherit;font-size:9px;line-height:1.25;cursor:pointer;backdrop-filter:blur(8px);transition:border-color .2s,background .2s}
+.viewer-model-option span{color:#aaa;font-size:8px;letter-spacing:1px}
+.viewer-model-option:hover,.viewer-model-option.is-active{border-color:var(--red);background:#2a1515e8;color:#fff}
+.viewer-model-option.is-active span{color:#ff7777}
+.viewer-source-link{position:absolute;z-index:3;right:25px;bottom:62px;display:flex;align-items:center;gap:6px;padding:7px 9px;background:#111c;color:#c6c6c6;font-size:8px;text-decoration:none;backdrop-filter:blur(8px)}
+.viewer-source-link:hover{color:#fff}
+@media(max-width:680px){.sketchfab-model-frame{min-height:310px}.viewer-model-picker{top:60px;left:12px;right:12px;gap:5px}.viewer-model-option{max-width:calc(33.333% - 4px);flex:1 1 30%;padding:7px 6px;font-size:8px}.viewer-model-option span{font-size:7px}.viewer-source-link{right:12px;bottom:50px;max-width:55%;font-size:7px}.viewer-hint{left:12px;bottom:24px}.viewer-controls-hint{right:12px;bottom:20px}}
