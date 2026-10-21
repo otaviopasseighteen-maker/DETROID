@@ -1,4 +1,5 @@
-import { ArrowDown, ArrowRight, BadgeCheck, Box, CarFront, ChevronRight, Gauge, Menu, MoveUpRight, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowDown, ArrowRight, Gauge, Menu, MoveUpRight, ShieldCheck, Sparkles } from "lucide-react";
+import VehicleViewer from "./components/VehicleViewer";
 
 const vehicles = [
   {
@@ -94,15 +95,8 @@ export default function Home() {
       </section>
 
       <section className="experience-section" id="experiencia">
-        <div className="experience-visual">
-          <div className="experience-orbit orbit-one" />
-          <div className="experience-orbit orbit-two" />
-          <div className="experience-crosshair">+</div>
-          <div className="experience-label"><Box size={15} /> EXPERIÊNCIA IMERSIVA <span>EM DESENVOLVIMENTO</span></div>
-          <div className="experience-big-type">360°</div>
-          <div className="experience-bottom-label">INSPECIONE. GIRE. DESCUBRA.</div>
-        </div>
-        <div className="experience-copy">
+        <VehicleViewer />
+      <div className="experience-copy">
           <div className="eyebrow"><span className="eyebrow-line" /> UMA NOVA PERSPECTIVA</div>
           <h2>Seu próximo veículo.<br /><em>Por todos os ângulos.</em></h2>
           <p>Estamos preparando uma experiência interativa para você explorar o exterior dos veículos em 3D, aproximar detalhes e conhecer cada modelo de um jeito novo.</p>
